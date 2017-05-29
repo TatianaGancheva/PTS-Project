@@ -13,17 +13,23 @@ namespace PTS_Project.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Faculties()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult History()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult Rules()
+        {
+            return View();
+        }
+
+        public ActionResult Contacts()
+        {
             return View();
         }
     }
