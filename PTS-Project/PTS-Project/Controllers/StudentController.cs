@@ -12,7 +12,7 @@ namespace PTS_Project.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("~/Views/Student/Index.cshtml");
         }
     }
 }
